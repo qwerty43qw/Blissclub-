@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fastrr Engage 360 × Blissclub</title>
+<style>
+:root{--bg:#faf7f2;--card:#fff;--ink:#1c1530;--mute:#6b6480;--line:#e8e2f0;--p:#6d28d9;--p2:#ec4899;--ok:#0f9d6b;--no:#b4437a;--hero:linear-gradient(135deg,#4c1d95,#be185d);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#130f20;--card:#1d1830;--ink:#f3effb;--mute:#a69fbd;--line:#322b4a;--p:#a78bfa;--p2:#f472b6;--ok:#34d399;--no:#f472b6;--hero:linear-gradient(135deg,#2e1065,#831843)}}
+:root[data-theme="dark"]{--bg:#130f20;--card:#1d1830;--ink:#f3effb;--mute:#a69fbd;--line:#322b4a;--p:#a78bfa;--p2:#f472b6;--ok:#34d399;--no:#f472b6;--hero:linear-gradient(135deg,#2e1065,#831843)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.55}
+h1,h2,h3,.sans{font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.hero{background:var(--hero);color:#fff;padding:56px 0 64px;border-radius:0 0 36px 36px}
+.tag{display:inline-block;font:600 12px "Trebuchet MS",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.18);padding:6px 12px;border-radius:99px}
+.hero h1{font-size:clamp(34px,7vw,60px);line-height:1.05;margin:18px 0 14px}
+.hero p{max-width:560px;font-size:18px;opacity:.92;margin:0 0 24px}
+.btn{display:inline-block;background:#fff;color:#4c1d95;font:700 15px "Trebuchet MS",Arial,sans-serif;padding:13px 22px;border-radius:99px;text-decoration:none}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:-34px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;text-align:center;box-shadow:0 6px 20px rgba(76,29,149,.12)}
+.stat b{display:block;font:800 30px "Trebuchet MS",Arial,sans-serif;background:linear-gradient(90deg,var(--p),var(--p2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-size:13px;color:var(--mute)}
+section{margin:56px 0}
+h2{font-size:28px;margin:0 0 6px}
+.lead{color:var(--mute);margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
+.card .ic{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--p),var(--p2));display:grid;place-items:center;font-size:20px;margin-bottom:10px}
+.card h3{margin:0 0 4px;font-size:17px}
+.card p{margin:0;font-size:15px;color:var(--mute)}
+.bar{margin:10px 0}
+.bar div.t{display:flex;justify-content:space-between;font:600 14px "Trebuchet MS",Arial,sans-serif;margin-bottom:5px}
+.track{height:12px;border-radius:9px;background:var(--line);overflow:hidden}
+.fill{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--p),var(--p2))}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:14.5px}
+th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 13px "Trebuchet MS",Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+th.us{color:var(--p)}
+td.us{background:rgba(109,40,217,.07);font-weight:600}
+.y{color:var(--ok)}.n{color:var(--no)}
+tr:last-child td{border-bottom:0}
+.tl{position:relative;padding-left:30px;border-left:3px solid var(--line);margin-left:10px}
+.step{position:relative;margin-bottom:18px}
+.step::before{content:"";position:absolute;left:-40px;top:18px;width:17px;height:17px;border-radius:50%;background:linear-gradient(135deg,var(--p),var(--p2));border:3px solid var(--bg)}
+.step small{font:700 12px "Trebuchet MS",Arial,sans-serif;letter-spacing:.1em;color:var(--p);text-transform:uppercase}
+.step h3{margin:2px 0 6px;font-size:19px}
+.step ul{margin:0;padding-left:18px;color:var(--mute);font-size:15px}
+.cta{background:var(--hero);color:#fff;border-radius:28px;padding:40px 28px;text-align:center}
+.cta h2{font-size:30px}
+.cta p{max-width:520px;margin:8px auto 20px;opacity:.92}
+footer{text-align:center;color:var(--mute);font-size:14px;padding:28px 0 36px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<span class="tag">Fastrr by Shiprocket</span>
+<h1>Turn lost carts into<br>Blissclub’s next revenue layer.</h1>
+<p>Engage 360 helps Blissclub recover lost revenue and drive incremental conversions across every channel, powered by Shiprocket’s 40Cr+ customer network.</p>
+<a class="btn" href="#call">Book a 20-min call →</a>
+</div></header>
+
+<main class="wrap">
+<div class="stats">
+<div class="stat"><b>21,000+</b><span>pin codes served</span></div>
+<div class="stat"><b>25+</b><span>courier partners</span></div>
+<div class="stat"><b>40Cr+</b><span>customer network</span></div>
+<div class="stat"><b>40–45%</b><span>anonymous traffic identified</span></div>
+</div>
+
+<section>
+<h2>What’s inside Engage 360</h2>
+<p class="lead">Fastrr’s retention and remarketing suite, built to reach shoppers at the exact moment they show intent.</p>
+<div class="grid">
+<div class="card"><div class="ic">💬</div><h3>Omni-channel</h3><p>Email, SMS, WhatsApp, push and on-site notifications from one platform.</p></div>
+<div class="card"><div class="ic">⚡</div><h3>Automated journeys</h3><p>Behaviour-triggered workflows that fire when purchase intent peaks.</p></div>
+<div class="card"><div class="ic">🎯</div><h3>Segmentation</h3><p>25+ Shopify-native segments based on behaviour and preferences.</p></div>
+<div class="card"><div class="ic">🕵️</div><h3>Anonymous Visitor ID</h3><p>Roughly double the industry standard, via Shiprocket’s user network.</p></div>
+<div class="card"><div class="ic">✨</div><h3>Magic Onsite</h3><p>Pre-filled info and personalised recommendations in real time.</p></div>
+<div class="card"><div class="ic">📦</div><h3>RTO Suite</h3><p>Order, address and COD-to-prepaid nudges that cut RTO by ~30–40%.</p></div>
+<div class="card"><div class="ic">🧭</div><h3>Growth Managers</h3><p>A dedicated strategist working as an extension of your team.</p></div>
+</div>
+</section>
+
+<section>
+<h2>What brands see with us</h2>
+<p class="lead">Success metrics across Engage 360 journeys.</p>
+<div class="card">
+<div class="bar"><div class="t"><span>WhatsApp open rate</span><span>85–98%</span></div><div class="track"><div class="fill" style="width:92%"></div></div></div>
+<div class="bar"><div class="t"><span>Email broadcast open rate</span><span>~22%</span></div><div class="track"><div class="fill" style="width:22%"></div></div></div>
+<div class="bar"><div class="t"><span>Add to Cart → Checkout: revenue recovered</span><span>15–20%</span></div><div class="track"><div class="fill" style="width:20%"></div></div></div>
+<div class="bar"><div class="t"><span>Welcome Journey: first-purchase lift</span><span>up to 30%</span></div><div class="track"><div class="fill" style="width:30%"></div></div></div>
+<p style="margin:16px 0 0;font-size:15px;color:var(--mute)">Product View → Checkout follow-ups drive 2–3x higher engagement. Abandoned Cart is consistently the highest-ROI play in lifecycle marketing, and segmented bulk campaigns outperform mass sends for launches and festive sales.</p>
+</div>
+</section>
+
+<section>
+<h2>Engage 360 vs. MoEngage</h2>
+<p class="lead">MoEngage is a capable, general-purpose platform. Engage 360 is built for Indian D2C, where COD, RTO and anonymous traffic drive leakage.</p>
+<div class="scroll"><table>
+<thead><tr><th>Capability</th><th class="us">Engage 360</th><th>MoEngage</th></tr></thead>
+<tbody>
+<tr><td>Omni-channel</td><td class="us y">✓ One unified platform</td><td>✓ Yes</td></tr>
+<tr><td>Anonymous Visitor ID</td><td class="us y">✓ 40–45% identified via 40Cr+ network</td><td class="n">Limited to first-party data</td></tr>
+<tr><td>RTO Suite</td><td class="us y">✓ Built in, ~30–40% RTO cut</td><td class="n">Not native</td></tr>
+<tr><td>Logistics data in journeys</td><td class="us y">✓ Shiprocket network</td><td class="n">Separate integration</td></tr>
+<tr><td>Shopify segmentation</td><td class="us y">✓ 25+ ready segments</td><td>Custom building</td></tr>
+<tr><td>On-site personalisation</td><td class="us y">✓ Magic Onsite, real time</td><td>Setup-dependent</td></tr>
+<tr><td>WhatsApp and Instagram chatbots</td><td class="us y">✓ Included in platform fee</td><td>Often add-on</td></tr>
+<tr><td>AI Calling for abandoned carts</td><td class="us y">✓ Available</td><td class="n">Not core</td></tr>
+<tr><td>Dedicated Growth Manager</td><td class="us y">✓ Included</td><td>Depends on plan tier</td></tr>
+<tr><td>Time to go live</td><td class="us y">✓ Faster, pre-built D2C journeys</td><td>More configuration</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>Your KAM’s month-on-month planner</h2>
+<p class="lead">A structured growth plan to steadily lift ROAS.</p>
+<div class="tl">
+<div class="step"><small>Month 1</small><h3>Setup &amp; quick wins</h3><ul><li>Onboarding and integration</li><li>Launch Welcome, Abandoned Cart and Browse Abandonment journeys</li><li>Activate Anonymous Visitor ID and baseline KPIs</li></ul></div>
+<div class="step"><small>Month 2</small><h3>Optimise &amp; expand</h3><ul><li>A/B test timing, creatives and channel mix</li><li>Segmented campaigns and COD-to-prepaid nudges</li><li>Add Product View → Checkout journeys</li></ul></div>
+<div class="step"><small>Month 3</small><h3>Scale &amp; personalise</h3><ul><li>Roll out Magic Onsite personalisation</li><li>Festive and launch campaigns on high-intent segments</li><li>AI Calling for high-value abandoned carts</li></ul></div>
+<div class="step"><small>Month 4+</small><h3>Compound growth</h3><ul><li>Monthly reviews with revenue-attribution reports</li><li>Win-back and loyalty journeys</li><li>Ongoing refinement of audiences, journeys and budgets</li></ul></div>
+</div>
+</section>
+
+<section id="call">
+<div class="cta">
+<h2>Let’s map this to Blissclub in 20 minutes</h2>
+<p>A short call to walk through a detailed demo, a tailored journey plan and the month-on-month planner. Share a few slots that work for your team.</p>
+<span class="btn">Reply with your preferred slots</span>
+</div>
+</section>
+</main>
+<footer>Rahul Singh · Shiprocket | Fastrr<br>The goal: make Engage a continuous revenue-growth layer for Blissclub.</footer>
+</body>
+</html>
